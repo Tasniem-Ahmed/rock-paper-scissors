@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="landing">
+        <p class="title">Rock Paper Scissors</p>
+        <div class="choices">
+            <div class="rock">👊</div>
+            <div class="paper">✋</div>
+            <div class="scissors">✌️</div>
+        </div>
+        <div class="selected hidden">
+            <div>You: <span class="userChoice"></span></div>
+            <div>Computer: <span class="computerChoice"></span></div>
+        </div>
+        <span class="flag hidden">You Win! 🎉</span>
+        <div class="result">
+            <div class="win">Wins: <span class="winResult">0</span>, </div>
+            <div class="lose"> Losses: <span class="loseResult">0</span>, </div>
+            <div class="tie"> Ties: <span class="tiesResult">0</span></div>
+        </div>
+        <div class="btn">
+            <button>Reset Score</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

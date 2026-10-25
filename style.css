@@ -1,0 +1,86 @@
+body{
+    background-color: #333;
+}
+.landing{
+    font-family: "Play", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-height: 100vh;
+}
+.title{
+    font-size: 40px;
+    color: white;
+    word-spacing: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.choices *{
+    border: solid 3px white;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 100%;
+    margin: 20px 40px;
+}
+.choices *:hover,
+button:hover{
+    cursor: pointer;
+    border: solid 3px rgb(149, 148, 145);
+}
+.selected{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    margin-inline: auto;
+}
+.selected *{
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.flag{
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.result{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+}
+.result *{
+    margin: 10px;
+    color: white;
+}
+button{
+    border: white 3px solid;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius:20px;
+    font-size: 20px;    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.hidden{
+    display: none;
+}
